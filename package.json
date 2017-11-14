@@ -1,7 +1,7 @@
 {
-    "name": "<name of the package>",
-    "version": "<version of the package>",
-    "description": "<description of the package>",
+    "name": "myhelloworldapp",
+    "version": "0.1",
+    "description": "Hello World",
     "private": true,     
     "devDependencies": {
         "grunt": "1.0.1",
