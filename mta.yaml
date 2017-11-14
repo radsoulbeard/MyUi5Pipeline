@@ -1,16 +1,16 @@
 _schema-version: "2.0.0"
-ID: "<Id of your MTA>"
-version: <version number of your application>
+ID: "myhelloworldapp"
+version: 0.1
 
 parameters:
   hcp-deployer-version: "1.0.0"
 
 modules:
-  - name: "<Name of your Fiori application>"
+  - name: "myhelloworldapp"
     type: html5
     path: .
     parameters:
-       version: <version number of your application>-${timestamp}
+       version: 0.1-${timestamp}
     build-parameters:
       builder: grunt
       build-result: dist
