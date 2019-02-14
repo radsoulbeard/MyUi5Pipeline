@@ -1,0 +1,10 @@
+steps:
+  mtaBuild:
+    buildTarget: 'NEO'
+    dockerImage: 'ppiper/mta-archive-builder:latest'
+  neoDeploy:
+    dockerImage: 'ppiper/neo-cli:latest'
+    account: 'd038702trial'
+    host: 'hanatrial.ondemand.com'
+    neo: 
+      neoCredentialsId: 'NEO_DEPLOY'
