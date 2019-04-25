@@ -1,3 +1,7 @@
+general:
+   collectTelemetryData: false
+   jenkinsKubernetes:
+    jnlpAgent: 'docker.wdf.sap.corp:50001/sap-production/jnlp-alpine:3.26.1-sap-02'
 steps:
   mtaBuild:
     buildTarget: 'NEO'
